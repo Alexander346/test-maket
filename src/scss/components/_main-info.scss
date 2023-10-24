@@ -1,54 +1,49 @@
-
-.info{
+.info {
   display: none;
-}
+ &__content{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ }
 
-.menu-button{
-  outline: none; /* Для синий ободки */
-  border: 0;
-  background: transparent;
-}
+  &__menu-item {
+    list-style-type: none;
+  }
 
-.menu-button{
-  max-width: 800px;
+}
+.mainButtons {
   width: 100%;
-  border: none;
+  padding: 0 15px;
+  display: flex;
+  column-gap:22px;
+  align-items: center;
   outline: none;
-  list-style-type: none;
+  border: 0;
+  font-size: 18px;
+  font-weight: 600;
+  background: transparent;
+  color: var(--blue-color-004685);
+  &:hover{
+    color: var(--cornflower-color-569ddc);
+  }
 }
-.menu-item{
-  list-style-type: none;
+
+.supernatant{
+  text-decoration: var(--blue-color-004685) underline dotted;
+}
+  .arrow {
+    margin-left: auto;
+    transition: transform 0.3s;
+  }
+
+  .rotate-up {
+  transform: rotate(-90deg);
 }
 
+.rotate-down {
+  transform: rotate(90deg);
+}
 
-
-
-
-
-// Animation
-// .menu-button {
-//   display: flex;
-//   align-items: center;
-//   cursor: pointer;
-// }
-
-// .menu-text {
-//   display: none;
-//   transition: opacity 0.3s; /* Добавляем переход для плавного появления и исчезновения */
-//   opacity: 0; /* Начальная прозрачность */
-// }
-// .menu-item.open .menu-text {
-//   display: block;
-//   opacity: 1; /* Прозрачность при раскрытии */
-// }
-
-// .menu-item.open .arrow {
-//   transform: rotate(90deg);
-// }
-
-// .dropdown-content {
-//   display: none;
-// }
 
 .dropdown {
   margin: 0 0 20px;
@@ -60,16 +55,12 @@
   transition: max-height 0.3s ease-in-out;
 }
 
-.arrow {
-  margin-left: auto;
-  transition: transform 0.3s;
-}
 
 @media (max-width: 799px) {
-  .info{
+  .info {
     display: block;
   }
-  .desktop{
-   display: none;
+  .desktop {
+    display: none;
   }
 }

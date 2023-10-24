@@ -1,14 +1,13 @@
 .fines {
-margin-bottom: 60px;
-
+  margin-bottom: 60px;
 
   &__content {
     display: flex;
     column-gap: 40px;
-    padding-bottom:57px;
+    padding-bottom: 57px;
   }
 
-  &__information{
+  &__information {
     display: flex;
     flex-direction: column;
     row-gap: 37px;
@@ -24,11 +23,11 @@ margin-bottom: 60px;
 
   &__text {
     font-size: 16px;
-    line-height:25px;
+    line-height: 25px;
     margin: 0;
   }
 
-  &__driver{
+  &__driver {
     margin-bottom: 10px;
   }
 
@@ -40,19 +39,14 @@ margin-bottom: 60px;
   }
 }
 
-.boundary{
+.boundary {
   border-bottom: 1px solid var(--blue-color-004685);
-  width: 100%
+  width: 100%;
 }
 
-
-// @media (max-width: 799px) {
-//   .fines {
-//     // display: none;
-//     &__image{
-//       display: none;
-//     }
-//     .menu-item {
-//       display: block;
-//   }
-// }}
+@media (max-width: 799px) {
+  .fines {
+    &__image{
+      display: none;
+    }
+}}

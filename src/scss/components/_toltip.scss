@@ -6,8 +6,6 @@
     background: rgba(255, 255, 255, 0.08);
     border: none;
 
-
-
     &:focus {
       + .tooltip__txt {
         opacity: 1;
@@ -38,7 +36,7 @@
     visibility: hidden;
     transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 
-    &::after{
+    &::after {
       content: "";
       position: absolute;
       right: 5%;
@@ -46,31 +44,30 @@
       margin-right: 10px;
       border-width: 5px;
       border-style: solid;
-      border-color: transparent transparent var(--white-color-ffffff) transparent;
+      border-color: transparent transparent var(--white-color-ffffff)
+        transparent;
     }
   }
 }
-.tel{
+.tel {
   text-align: center;
-  &__suport{
-font-size: 24px;
+  &__suport {
+    font-size: 24px;
   }
-  &__location{
-font-size: 28px;
-font-weight: 600;
-margin: 0;
-margin-bottom: 20px;
+  &__location {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 20px;
   }
-  &__letter{
-font-size: 16px;
-text-decoration: underline;
+  &__letter {
+    font-size: 16px;
+    text-decoration: underline;
   }
 }
 
-
 @media (max-width: 799px) {
-	.tooltip {
-		display: none;
-	}
-
+  .tooltip {
+    display: none;
+  }
 }
