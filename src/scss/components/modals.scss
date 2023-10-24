@@ -1,0 +1,58 @@
+.graph-modal {
+  &__container{
+    width: 400px;
+    height: 469px;
+    padding:40px;
+    border-radius:0;
+  }
+  &__content {
+    .login-page {
+      .form {
+        display: flex;
+        flex-direction: column;
+
+        h3.message {
+          line-height:24px;
+          max-width: 267px;
+          font-size: 16px;
+          font-weight: 700;
+          color: var(--black-color-000000);
+          margin: 0;
+          margin-bottom: 30px; // Расстояние между заголовком и полями ввода
+        }
+
+        .form__input {
+          width: 100%; // Занимает всю ширину
+          max-width: 320px;
+          margin-bottom: 16px; // Расстояние между полями ввода
+        }
+        .form__btn {
+          max-width: 320px;
+          width: 100%; // Занимает всю ширину
+          height: 60px;
+          font-size:24px;
+          font-weight: 600;
+          border-radius: 8px;
+          margin-top: 8px;
+          margin-bottom: 33px;
+          border: none;
+          background: var( --crimson-color-d30531);
+          color: var(--white-color-ffffff);
+
+          &:hover{
+            background:var(--light-carmine-pink);
+          }
+        }
+      }
+
+      a.reminder-link, a.registration-link {
+        display: block;
+        font-size: 16px;
+        text-decoration:var(--blue-color-004685) underline dotted;
+        color: var(--blue-color-004685);
+        text-align: left; // Центрирование текста
+        margin-bottom: 20px; // Расстояние между ссылками
+      }
+    }
+  }
+}

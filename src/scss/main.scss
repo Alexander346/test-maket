@@ -1,0 +1,22 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/burger";
+@import "./components/burger-nav";
+@import "./components/preview";
+@import "./components/search";
+@import "./components/payment-nav";
+@import "./components/fines";
+@import "./components/debt";
+@import "./components/taxes";
+@import "./components/registry";
+@import "./components/partners";
+@import "./components/footer";
+@import "./components/toltip";
+@import "./components/modals";
+@import "./components/main-info";

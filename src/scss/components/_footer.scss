@@ -1,0 +1,33 @@
+.footer {
+height: 124px;
+background: var(--rich-blue-color-00468533);
+
+
+  &__wrapper {
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  &__user {
+    font-weight: 600;
+    text-align: left;
+    font-size:16px;
+    color: var(--black-color-000000);
+  }
+
+  &___image{
+    width:79px;
+    height:52px;
+  }
+}
+@media (max-width: 799px) {
+  .footer{
+    &__wrapper{
+
+    }
+  }
+
+}

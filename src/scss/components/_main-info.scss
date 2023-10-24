@@ -1,0 +1,75 @@
+
+.info{
+  display: none;
+}
+
+.menu-button{
+  outline: none; /* Для синий ободки */
+  border: 0;
+  background: transparent;
+}
+
+.menu-button{
+  max-width: 800px;
+  width: 100%;
+  border: none;
+  outline: none;
+  list-style-type: none;
+}
+.menu-item{
+  list-style-type: none;
+}
+
+
+
+
+
+
+// Animation
+// .menu-button {
+//   display: flex;
+//   align-items: center;
+//   cursor: pointer;
+// }
+
+// .menu-text {
+//   display: none;
+//   transition: opacity 0.3s; /* Добавляем переход для плавного появления и исчезновения */
+//   opacity: 0; /* Начальная прозрачность */
+// }
+// .menu-item.open .menu-text {
+//   display: block;
+//   opacity: 1; /* Прозрачность при раскрытии */
+// }
+
+// .menu-item.open .arrow {
+//   transform: rotate(90deg);
+// }
+
+// .dropdown-content {
+//   display: none;
+// }
+
+.dropdown {
+  margin: 0 0 20px;
+  overflow: hidden;
+}
+
+.dropdown__content {
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.arrow {
+  margin-left: auto;
+  transition: transform 0.3s;
+}
+
+@media (max-width: 799px) {
+  .info{
+    display: block;
+  }
+  .desktop{
+   display: none;
+  }
+}

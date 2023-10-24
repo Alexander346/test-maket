@@ -1,0 +1,41 @@
+<section class="info">
+<div class="">
+  <h2 class="menu__title">Узнай, как оплатить</h2>
+  <ul>
+    <li class="menu-item dropdown">
+      <button class="mainButtons" data-target="fines">
+        <img loading="lazy" src="../img/mobile/ic_gibdd1.svg" class="image" width="" height="" alt="">
+        Штрафы ГИБДД
+        <span class="arrow">▶</span>
+      </button>
+      <div class="dropdown__content hidden" id="fines">@include('./fines.html')</div>
+
+    </li>
+    <li class="menu-item dropdown">
+      <button class="mainButtons" data-target="debt">
+        <img loading="lazy" src="../img/mobile/ic_fssp.svg" class="image" width="" height="" alt="">
+        Судебные задолженности
+        <span class="arrow">▶</span>
+      </button>
+      <div class="dropdown__content hidden" id="debt">@include('./debt.html')</div>
+
+    </li>
+    <li class="menu-item dropdown">
+      <button class="mainButtons" data-target="taxes">
+        <img loading="lazy" src="../img/mobile/ic_nalog.svg" class="image" width="" height="" alt="">
+        Налоги
+        <span class="arrow">▶</span>
+      </button>
+      <div class="dropdown__content hidden" id="taxes">@include('./taxes.html')</div>
+    </li>
+    <li class="menu-item dropdown">
+      <button class="mainButtons" data-target="registry">
+        <img loading="lazy" src="../img/mobile/ic_rr.svg" class="image" width="" height="" alt="">
+        Услуги Росреестра
+        <span class="arrow">▶</span>
+      </button>
+      <div class="dropdown__content hidden" id="registry">@include('./registry.html')</div>
+    </li>
+  </ul>
+</div>
+</section>
