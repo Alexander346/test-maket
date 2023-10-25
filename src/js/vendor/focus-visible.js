@@ -46,9 +46,7 @@ function applyFocusVisiblePolyfill(scope) {
   }
 
   /**
-   * Computes whether the given element should automatically trigger the
-   * `focus-visible` class being added, i.e. whether it should always match
-   * `:focus-visible` when focused.
+
    * @param {Element} el
    * @return {boolean}
    */

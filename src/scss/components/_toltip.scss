@@ -7,14 +7,14 @@
     border: none;
 
     &:focus {
-      + .tooltip__txt {
+      +.tooltip__txt {
         opacity: 1;
         visibility: visible;
       }
     }
 
     @include hover {
-      + .tooltip__txt {
+      +.tooltip__txt {
         opacity: 1;
         visibility: visible;
       }
@@ -44,22 +44,25 @@
       margin-right: 10px;
       border-width: 5px;
       border-style: solid;
-      border-color: transparent transparent var(--white-color-ffffff)
-        transparent;
+      border-color: transparent transparent var(--white-color-ffffff) transparent;
     }
   }
 }
+
 .tel {
   text-align: center;
+
   &__suport {
     font-size: 24px;
   }
+
   &__location {
     font-size: 28px;
     font-weight: 600;
     margin: 0;
     margin-bottom: 20px;
   }
+
   &__letter {
     font-size: 16px;
     text-decoration: underline;

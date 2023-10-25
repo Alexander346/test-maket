@@ -3,6 +3,7 @@
   height: 430px;
   margin-bottom: 63px;
   position: relative;
+
   &__background {
     position: absolute;
     top: 0;
@@ -16,6 +17,7 @@
 @media (max-width: 799px) {
   .preview {
     margin: 0;
+
     &__background {
       height: 80%;
     }

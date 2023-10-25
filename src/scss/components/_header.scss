@@ -9,9 +9,7 @@
   background: var(--white-color-ffffff);
 
   &__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex-all-sb
   }
 
   &__logo {

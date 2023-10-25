@@ -22,12 +22,6 @@ $browser-context: 16; // Default
   );
 }
 
-// @mixin footerToBottom {
-//   display: grid;
-//   grid-template-columns: 100%;
-//   grid-template-rows: auto 1fr auto;
-//   min-height: 100vh;
-// }
 
 @mixin mr($value) {
     &:not(:last-child) {

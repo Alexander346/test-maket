@@ -33,7 +33,7 @@
     flex-direction: column;
     list-style-type: none;
     padding: 0;
-    margin: 18px 0 18px;
+    margin: 18px 0 41px;
     row-gap: 22px;
     font-size: inherit;
   }
@@ -48,6 +48,10 @@
 
   &__link {
     text-decoration: underline;
+
+    &:hover{
+      color: var(--cornflower-color-569ddc);
+    }
   }
 }
 
